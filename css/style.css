@@ -229,12 +229,16 @@ li > .link:focus {
 .modal-close-button:focus {
   background-color: var(--ocean);
   border: none;
-  fill: white;
 }
 
 .is-hidden {
   pointer-events: none;
   opacity: 0;
+}
+
+.modal-close-button:hover,
+.modal-close-button:focus {
+  fill: var(--white);
 }
 
 /* Second section */
